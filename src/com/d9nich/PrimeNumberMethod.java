@@ -31,6 +31,8 @@ public class PrimeNumberMethod {
      * Check whether number is prime
      */
     public static boolean isPrime(int number) {
+        if (number < 2)
+            return false;
         for (int divisor = 2; divisor <= number / 2; divisor++) {
             if (number % divisor == 0) { // If true, number is not prime
                 return false; // Number is not a prime

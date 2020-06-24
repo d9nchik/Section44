@@ -9,8 +9,7 @@ class PrimeNumberMethodTest {
     @Test
     void isPrime() {
         assertTrue(PrimeNumberMethod.isPrime(229));
-        assertFalse(PrimeNumberMethod.isPrime(1001));
-        assertFalse(PrimeNumberMethod.isPrime(1_000_001));
-        assertTrue(PrimeNumberMethod.isPrime(9973));
+        assertFalse(PrimeNumberMethod.isPrime(1001));//divided by 7
+        assertFalse(PrimeNumberMethod.isPrime(-1));
     }
 }
