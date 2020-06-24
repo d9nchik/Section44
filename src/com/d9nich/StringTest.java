@@ -1,4 +1,4 @@
-package com.d9nich.stringTest;
+package com.d9nich;
 
 import org.junit.jupiter.api.Test;
 
